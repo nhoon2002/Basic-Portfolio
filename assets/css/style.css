@@ -15,14 +15,24 @@ footer {
     background: blue;
 } -->
 
+body {
+	background: beige;
+	width: 960px;
+	margin: 0 auto;
+}
+
 #header {
-	height: 200px;
+	height: 100px;
+	width: 100%;
+	overflow: auto;
 	background: grey;
 
 }
 #name {
 	float: left;
 	width: 75%;
+	height:100px;
+	font-size: 50px;
 	background: blue;
 	text-align: center; 
 }
@@ -35,13 +45,30 @@ footer {
 }
 
 #container {
-	float: none;
-	width: 650px;
+	float: left;
+	width: 590px;
 	background: pink;
-	padding: 0 0 0 20px;
+	padding: 10px 20px 0 20px;
+	margin: 20px 10px 0 0px;
+
+}
+
+#connect {
+	float: right;
+	width: 210px;
+	height: 350px;
+	padding: 10px 20px 0 20px;
+	margin: 20px 20px 10px 0px;
+	background: pink;
+
 }
 
 #myimage {
 	float: left;
 	padding: 0 20px 0 0;
+}
+
+footer {
+	width: 960px;
+	left: auto;
 }
