@@ -1,0 +1,47 @@
+<!-- html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    margin: 0 0 100px;
+}
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    background: blue;
+} -->
+
+#header {
+	height: 200px;
+	background: grey;
+
+}
+#name {
+	float: left;
+	width: 75%;
+	background: blue;
+	text-align: center; 
+}
+
+#pages {
+	float: right;
+	width: 25%;
+	background: green;
+	text-align: center;
+}
+
+#container {
+	float: none;
+	width: 650px;
+	background: pink;
+	padding: 0 0 0 20px;
+}
+
+#myimage {
+	float: left;
+	padding: 0 20px 0 0;
+}
