@@ -3,25 +3,16 @@ html {
 	margin: 0 auto;
 }
 
-footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    background: #666666;
-    border-top: solid #4aaaa5;
-    clear: both;
-    margin: 0 auto;
-    color: white;
-}
+
 
 body {
 	background: url(../images/backgroundimg.png);
 	width: 960px;
 	margin: 0 auto;
 	color: #777777;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 13.5px;
+	line-height: 1.5;
 }
 
 header {
@@ -37,28 +28,35 @@ header {
 	background: white;
 	border-bottom: solid #cccccc;
 	clear:both;
+	font-family: Georgia, Times, "Times New Roman", serif;
 
 }
+
+
 #name {
 	float: left;
 	width: 50%;
-	height:100px;
+	height:80px;
 	font-size: 50px;
 	background: #4aaaa5;
 	color: white;
-	text-align: center; 
+	text-align: center;
+	padding-top: 20px; 
+
 }
 
 #pages {
 	
 	float: right;
 	width: 30%;
-	height: 100px;
+	height: 600px;
+	padding-top: 40px;
 	display: inline-block;
 	text-align: center;
+	font-size: 15px;
 }
 
-#container {
+#container, #container2 {
 
 	float: left;
 	width: 590px;
@@ -69,6 +67,44 @@ header {
 	
 
 }
+
+input {
+	
+	border-color: #dddddd;
+	padding: 5px 0 5px 10px;
+	margin-left: 10px;
+	width: 95%;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+
+}
+
+textarea {
+	width: 95%;
+	height: 100px;
+	border-color: #dddddd;
+	padding: 5px 0 5px 10px;
+	margin-left: 10px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	resize: none;
+}
+
+button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
 
 #aboutme {
 	color:#4aaaa5;
@@ -81,7 +117,7 @@ header {
 #connect {
 	float: right;
 	width: 210px;
-	height: 350px;
+	height: 180px;
 	padding: 10px 20px 0 20px;
 	margin: 150px 20px 10px 0px;
 	background: white;
@@ -89,9 +125,36 @@ header {
 	text-align: center;
 
 }
+	#sitelinks{
+		display: inline-block;
+	}
+	
+
+
+
 
 #myimage {
 	float: left;
 	padding: 0 20px 0 0;
 }
 
+hr {
+	height: 2px;
+	/*color: #dddddd;*/
+	background-color: #cccccc;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    color: white;
+    background: #666666;
+    border-top: 7px solid #4aaaa5;
+    clear: both;
+    margin: 0 auto;
+    font-size: 12px;
+    }
