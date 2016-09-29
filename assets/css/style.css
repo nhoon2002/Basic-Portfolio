@@ -109,7 +109,7 @@ button {
 	background: pink;
 }
 */
-#i1, #i3, #i5 {
+/*#i1, #i3, #i5 {
 	float: left;
 	margin-bottom: 30px;
 }
@@ -117,7 +117,7 @@ button {
 	float: right;
 	margin-bottom: 30px;
 }
-
+*/
 
 
 
@@ -146,6 +146,87 @@ button {
 	
 
 
+#picture{
+	height: 200px;
+	width: 275px;
+	/*position: absolute;*/
+	background: url("../images/placeimg1.jpeg");
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#picture3{
+	height: 200px;
+	width: 275px;
+	/*position: absolute;*/
+	background: url("../images/placeimg3.jpeg");
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#picture5{
+	height: 200px;
+	width: 275px;
+	/*position: absolute;*/
+	background: url("../images/placeimg5.jpeg");
+	float: left;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#picture2 {
+	height: 200px;
+	width: 275px;
+	/*position: absolute;*/
+	background: url("../images/placeimg2.jpeg");
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#picture4 {
+	height: 200px;
+	width: 275px;
+	/*position: absolute;*/
+	background: url("../images/placeimg4.jpeg");
+	float: right;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+#picture-text, #picture-text3, #picture-text5 {
+	height: 20px;
+	width: 275px;
+	background: #4aaaa5;
+	color: white;
+	position: relative;
+	margin-top: 150px;
+	display: inline-block;
+	z-index: 0;
+	float: left;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: bold;
+	}
+
+#picture-text2, #picture-text4 {
+	height: 20px;
+	width: 275px;
+	background: #4aaaa5;
+	color: white;
+	position: relative;
+	margin-top: 150px;
+	display: inline-block;
+	z-index: 0;
+	float: right;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 16px;
+	font-weight: bold;
+
+}
 
 
 #myimage {
